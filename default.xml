@@ -5,8 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/"
-           review="https://gerrit.slimroms.net/"/>
+           fetch="git://github.com/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
@@ -15,6 +14,17 @@
   <project path="build" name="SlimRoms/android_build" remote="github" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
+  <!-- Slim Roms repos -->
+
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
+  <project path="device/asus/tf701t" name="Geizerjin/android_device_asus_tf701t" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/hercules" name="Geizerjin/android_device_samsung_hercules" remote="github" revision="cm-11.0" />
+  <project path="android" name="Geizerjin/android" revision="slim" />
+  <project path="kernel/samsung/hercules" name="Geizerjin/HERC-KERNELS" remote="github" revision="uber-kk44" />
+   
+  <!-- End Slim Roms repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
@@ -429,9 +439,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="kk4.4" />
-
-  <!-- New Additions for slim -->
+   <!-- New Additions for slim -->
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
 
   <!-- Slim OTA -->
