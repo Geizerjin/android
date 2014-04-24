@@ -8,6 +8,9 @@
   <remote  name="github"
            fetch="https://github.com" />
 
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
@@ -25,7 +28,8 @@
   <project path="device/samsung/hercules" name="Geizerjin/android_device_samsung_hercules" remote="github" revision="cm-11.0" />
   <project path="android" name="Geizerjin/android" revision="master" />
   <project path="kernel/samsung/hercules" name="Geizerjin/HERC-KERNELS" remote="github" revision="uber-kk44" />
-   
+  <project path="frameworks/base" name="Geizerjin/android_frameworks_base" revision="kk44" />
+  <project path="frameworks/native" name="Geizerjin/frameworks_native" revision="kk44" />
   <!-- End Device Roms repos -->
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
@@ -281,7 +285,6 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="scotthartbti/android_frameworks_av" revision="kk44" />
-  <project path="frameworks/base" name="scotthartbti/android_frameworks_base" revision="kk44" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -289,7 +292,6 @@
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="scotthartbti/frameworks_native" revision="kk44" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/cards" name="scotthartbti/frameworks_opt_cards" revision="kk44" />
