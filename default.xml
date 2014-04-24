@@ -26,10 +26,10 @@
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
   <project path="device/asus/tf701t" name="Geizerjin/android_device_asus_tf701t" remote="Geizer" revision="cm-11.0" />
   <project path="device/samsung/hercules" name="Geizerjin/android_device_samsung_hercules" remote="Geizer" revision="cm-11.0" />
-  <project path="android" name="Geizerjin/android" revision="master" />
+  <project path="android" name="Geizerjin/android" remote="Geizer" revision="master" />
   <project path="kernel/samsung/hercules" name="Geizerjin/HERC-KERNELS" remote="Geizer" revision="uber-kk44" />
-  <project path="frameworks/base" name="Geizerjin/android_frameworks_base" revision="kk44" />
-  <project path="frameworks/native" name="Geizerjin/frameworks_native" revision="kk44" />
+  <project path="frameworks/base" name="Geizerjin/android_frameworks_base" remote="Geizer" revision="kk44" />
+  <project path="frameworks/native" name="Geizerjin/frameworks_native" remote="Geizer" revision="kk44" />
   <!-- End Device Roms repos -->
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
