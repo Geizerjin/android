@@ -9,7 +9,7 @@
            fetch="git://github.com/" />
            
   <remote  name="Geizer"
-           fetch="https://github.com/Geizerjin" />
+           fetch="git@github.com:Geizerjin/" />
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
