@@ -31,13 +31,13 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="Geizer" revision="kk44" />
   <project path="frameworks/native" name="frameworks_native" remote="Geizer" revision="kk44" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Geizer" revision="kk44" />
+  <project path="bootable/recovery" name="philz_touch_cwm6" remote="Geizer" revision="cm-11.0" />
   <!-- End Device Roms repos -->
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="scotthartbti/android_art" revision="kk44" />
   <project path="bionic" name="scotthartbti/android_bionic" revision="kk44" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" revision="cm-11.0" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="cm-11.0" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
