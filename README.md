@@ -5,7 +5,7 @@ Getting Started
 
 To get started with Android/BeanStalkKang, you'll need to get familiar with Git and Repo.
 
-To initialize your local repository using the BeanStalk trees, use a command like this:
+To initialize your local repository using the trees, use a command like this:
 
 repo init --reference=~/cm-11.0 -u git://github.com/Geizerjin/android.git -b Alpine
 
