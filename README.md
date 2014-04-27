@@ -3,9 +3,9 @@ Android TF701t and Hercules
 
 Getting Started
 
-To get started with Android/BeanStalkKang, you'll need to get familiar with Git and Repo.
+To get started with Android/Slimbean, you'll need to get familiar with Git and Repo.
 
-To initialize your local repository using the BeanStalk trees, use a command like this:
+To initialize your local repository using the Slimbean trees, use a command like this:
 
 repo init -u git://github.com/Geizerjin/android.git -b master
 
