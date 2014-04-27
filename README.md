@@ -7,7 +7,9 @@ To get started with Android/BeanStalkKang, you'll need to get familiar with Git 
 
 To initialize your local repository using the BeanStalk trees, use a command like this:
 
-repo init -u git://github.com/Geizerjin/android.git -b slim
+repo init -u git://github.com/Geizerjin/android.git -b cm-11.0
+
+repo init --reference=~/beanstalk -u git://github.com/Geizerjin/android.git -b cm-11.0
 
 Then to sync up:
 
