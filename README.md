@@ -3,12 +3,13 @@ Android TF701t and Hercules
 
 Getting Started
 
-To get started with Android/BeanStalkKang, you'll need to get familiar with Git and Repo.
+To get started with Android, you'll need to get familiar with Git and Repo.
 
-To initialize your local repository using the BeanStalk trees, use a command like this:
+To initialize your local repository using the trees, use a command like this:
 
-repo init -u git://github.com/Geizerjin/android.git -b master
+repo init -u git://github.com/Geizerjin/android.git -b DU
 
+repo init --reference=~/Bean4.3 -u git://github.com/Geizerjin/android.git -b DU
 
 Then to sync up:
 
