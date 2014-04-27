@@ -23,8 +23,8 @@
 
   <project path="vendor/asus/tf701t" name="android_vendor_asus_tf701t" remote="Geizer" revision="cm-11.0" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
-  <project path="device/asus/tf701t" name="android_device_asus_tf701t" remote="Geizer" revision="cm-11.0" />
-  <project path="device/samsung/hercules" name="android_device_samsung_hercules" remote="Geizer" revision="cm-11.0" />
+  <project path="device/asus/tf701t" name="android_device_asus_tf701t" remote="Geizer" revision="cm-10.2" />
+  <project path="device/samsung/hercules" name="device_samsung_hercules" remote="Geizer" revision="kk4.4" />
   <project path="android" name="android" remote="Geizer" revision="slim4.3" />
   <project path="kernel/samsung/hercules" name="HERC-KERNELS" remote="Geizer" revision="uber-kk44" />
    
