@@ -9,6 +9,7 @@ To initialize your local repository using the BeanStalk trees, use a command lik
 
 repo init -u git://github.com/Geizerjin/android.git -b master
 
+
 Then to sync up:
 
 repo sync
