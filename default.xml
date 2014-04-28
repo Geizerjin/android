@@ -28,6 +28,10 @@
   <project path="kernel/samsung/hercules" name="HERC-KERNELS" remote="Geizer" revision="uber-kk44" />
   <project path="device/samsung/celox-common" name="SlimRoms/device_samsung_celox-common" revision="kk4.4" />
   <project path="device/samsung/msm8660-common" name="SlimRoms/device/samsung/msm8660-common" revision="kk4.4" />
+  <project path="device/samsung/qcom-common" name="SlimRoms/device/samsung/qcom-common" revision="kk4.4" />
+  <project path="kernel/samsung/msm8660-common" name="CyanogenMod/android_kernel_samsung_msm8660-common" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-caf" name="SlimRoms/hardware_qcom_audio-caf" revision="kk4.4" />
+  <project path="hardware/qcom/display-caf" name="SlimRoms/hardware_qcom_display-caf" revision="kk4.4" />
    
   <!-- End Slim Roms repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
