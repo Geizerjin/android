@@ -26,6 +26,7 @@
   <project path="device/samsung/hercules" name="device_samsung_hercules" remote="Geizer" revision="kk4.4" />
   <project path="android" name="android" remote="Geizer" revision="slim" />
   <project path="kernel/samsung/hercules" name="HERC-KERNELS" remote="Geizer" revision="uber-kk44" />
+  <project path="device/samsung/celox-common" name="SlimRoms/device_samsung_celox-common" revision="kk4.4" />
    
   <!-- End Slim Roms repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
