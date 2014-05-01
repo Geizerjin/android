@@ -13,7 +13,6 @@ Then to sync up:
 
 repo sync
 
-Please see any of the official beanstalk XDA threads for building instructions.
 
 For more information on this Github Organization and how it is structured, please read the wiki article
 Buildbot
