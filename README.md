@@ -7,7 +7,7 @@ To get started with Android/Slimbean, you'll need to get familiar with Git and R
 
 To initialize your local repository using the Slimbean trees, use a command like this:
 
-repo init -u git://github.com/Geizerjin/android.git -b master
+repo init -u git://github.com/Geizerjin/android.git -b bean4.3
 
 Then to sync up:
 
